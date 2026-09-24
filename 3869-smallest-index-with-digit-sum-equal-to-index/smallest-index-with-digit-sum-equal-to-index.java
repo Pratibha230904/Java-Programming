@@ -3,7 +3,7 @@ class Solution {
         
         for(int i=0;i<arr.length;i++){
           
-            int check=Integer.MAX_VALUE;
+           /* int check=Integer.MAX_VALUE;*/
             int sum=0;
            while(arr[i]!=0){
             int last=arr[i]%10;
@@ -12,8 +12,8 @@ class Solution {
         
            }
 
-           if(sum==i && sum<check){
-            check=sum;
+           if(sum==i ){
+           /* check=sum;*/
             return i;
            }
             
